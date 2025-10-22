@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabasawa Local Government Council</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f6f8; color:#333;}
+        header {background:#0073e6; color:white; padding:20px 0; text-align:center;}
+        nav {display:flex; justify-content:center; background:#005bb5;}
+        nav a {color:white; text-decoration:none; padding:15px 20px; display:inline-block;}
+        nav a:hover {background:#004080;}
+        section {padding:50px 20px; max-width:1000px; margin:auto;}
+        h2 {color:#0073e6;}
+        .departments, .leadership, .news, .gallery {display:flex; flex-wrap:wrap; gap:20px;}
+        .card {background:white; padding:20px; border-radius:10px; flex:1 1 calc(33% - 40px); box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+        form input, form textarea {width:100%; padding:10px; margin:5px 0; border-radius:5px; border:1px solid #ccc;}
+        form button {background:#0073e6; color:white; border:none; padding:10px 20px; cursor:pointer; border-radius:5px;}
+        form button:hover {background:#005bb5;}
+        footer {background:#333; color:white; text-align:center; padding:20px;}
+        img {width:100%; border-radius:10px;}
+        @media(max-width:768px){.card {flex:1 1 100%;}}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gabasawa Local Government Council</h1>
+    <p>Official Portal of Gabasawa LGA, Kano State, Nigeria</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#news">News</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Gabasawa LGA</h2>
+    <p>Gabasawa Local Government Area is one of the administrative areas in Kano State, Nigeria. Our council is dedicated to serving the community with transparency, development, and social services.</p>
+    <img src="https://via.placeholder.com/1000x400?text=Gabasawa+LGA+Building" alt="Gabasawa Secretariat">
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Gabasawa LGA was created to improve administration and provide essential services to its citizens. Our vision is to be a model local government for development, education, and welfare in Kano State.</p>
+    <p>Our mission includes promoting community growth, infrastructure, education, and healthcare.</p>
+</section>
+
+<section id="departments">
+    <h2>Departments</h2>
+    <div class="departments">
+        <div class="card"><h3>Education</h3><p>Responsible for schools, literacy programs, and educational initiatives.</p></div>
+        <div class="card"><h3>Health</h3><p>Manages local clinics, hospitals, and health awareness campaigns.</p></div>
+        <div class="card"><h3>Agriculture</h3><p>Supports farmers, farming programs, and sustainable agriculture projects.</p></div>
+        <div class="card"><h3>Works & Infrastructure</h3><p>Handles roads, public buildings, and community development projects.</p></div>
+        <div class="card"><h3>Administration</h3><p>Oversees records, personnel, and local governance operations.</p></div>
+    </div>
+</section>
+
+<section id="leadership">
+    <h2>Leadership</h2>
+    <div class="leadership">
+        <div class="card"><h3>Chairman</h3><p>Hon. John Doe</p></div>
+        <div class="card"><h3>Secretary</h3><p>Jane Smith</p></div>
+        <div class="card"><h3>Councillors</h3><p>List of Councillors managing wards within Gabasawa LGA.</p></div>
+    </div>
+</section>
+
+<section id="news">
+    <h2>News & Announcements</h2>
+    <div class="news">
+        <div class="card"><h3>Community Health Campaign</h3><p>Gabasawa LGA organizes free health checkups in all wards.</p></div>
+        <div class="card"><h3>New School Opening</h3><p>A new primary school has been inaugurated to enhance education.</p></div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <div class="card"><img src="https://via.placeholder.com/300x200?text=Road+Construction" alt="Road Construction"></div>
+        <div class="card"><img src="https://via.placeholder.com/300x200?text=Community+Event" alt="Community Event"></div>
+        <div class="card"><img src="https://via.placeholder.com/300x200?text=Local+Market" alt="Local Market"></div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Gabasawa Secretariat, Kano State, Nigeria</p>
+    <iframe src="https://maps.google.com/maps?q=Gabasawa%20Kano%20State&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius:10px;"></iframe>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Gabasawa Local Government Council. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
